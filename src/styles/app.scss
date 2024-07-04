@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.App {
+    transition: all .5s ease;
+}
+
+.library-active {
+    margin-left: 30%;
+}
+
+h1,h2,h3 {
+    color: rgb(54, 54, 54)
+}
+
+h3,h4 {
+    font-weight: 400;
+    color: rgb(100, 100, 100);
+}
+
+@import './player';
+@import './song';
+@import './library';
+@import './nav';
